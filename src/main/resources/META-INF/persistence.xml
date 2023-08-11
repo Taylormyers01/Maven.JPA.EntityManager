@@ -1,0 +1,7 @@
+<persistence>
+    <!-- Define persistence unit -->
+    <persistence-unit name="jpa-hibernate-mysql">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <description>This is a short text describing my persistence unit.</description>
+    </persistence-unit>
+</persistence>
